@@ -1,5 +1,5 @@
 <?php
-   
+    $insert =false;
    
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $server = "localhost";
