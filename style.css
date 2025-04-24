@@ -99,7 +99,17 @@ form {
 }
 
 .submit_msg {
-    color: green;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: rgba(39, 174, 95, 0.4);
+    border-radius: 8px;
+    border: 1px solid rgba(39, 174, 96);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: block;
 }
 
 @media (max-width: 768px) {
