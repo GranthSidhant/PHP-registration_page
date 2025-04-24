@@ -1,40 +1,5 @@
 <?php
-    $insert =false;
-    // if (isset($_POST["name"])) {
-    //     $server = "localhost";
-    //     $username = "root";
-    //     $password = "";
-
-    //     $con = mysqli_connect($server, $username, $password);
-
-    //     if (!$con) {
-    //         die("connection to this database failed due to" . mysqli_connect_error());
-    //     }
-
-    //     //echo "Success connecting to the db";
-
-    //     $name = $_POST['name'];
-    //     $age = $_POST['age'];
-    //     $city = $_POST['city'];
-    //     $mobile = $_POST['mobile'];
-    //     $email = $_POST['email'];
-    //     $other = $_POST['other'];
-
-    //     $query = "INSERT INTO `tourism`.`user` (`name`, `age`, `city`, `mobile`, `email`, `other`) VALUES ('$name', '$age', '$city', '$mobile', '$email', '$other');";
-
-    //     if ($con->query($query) == true){
-    //     echo "";
-    //     $insert = true;
-    //}
-    //         //echo "successfully inserted";
-    //     else {
-
-    //         echo "Error: $sql <br> $con->error";
-    //     }
-
-    //     $con->close();
-    // }
-
+   
    
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $server = "localhost";
